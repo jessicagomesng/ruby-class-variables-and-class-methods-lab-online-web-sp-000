@@ -35,9 +35,9 @@ class Song
     genre_count = {}
     #iterate over the genres array & count the number of instances that it appears.
     counter = 0
-    @@genres.each do |genre|
-      
-      counter + 1
+
+    @@genres.sort() each do |genre|
+    
     end
 
   end
