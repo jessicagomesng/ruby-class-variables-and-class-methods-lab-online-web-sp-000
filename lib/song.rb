@@ -37,7 +37,7 @@ class Song
     counter = 0
 
     @@genres.sort() each do |genre|
-    
+
     end
 
   end
