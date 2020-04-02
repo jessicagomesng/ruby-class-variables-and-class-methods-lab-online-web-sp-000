@@ -22,9 +22,6 @@ class Song
   def self.artists
     #iterate over the whole array
     #if the item is already present, then delete it
-    @@artists.delete_if do |artist|
-      @@artists.include?(artist)
-    end 
   end
 
   def self.genres
