@@ -36,8 +36,7 @@ class Song
     #iterate over the genres array & count the number of instances that it appears.
     i = 0
 
-    @@genres.each_with_index do |genre, index|
-    i < @@genres.length
+    @@genres.each_with_index do |genre, index| while i < @@genres.length
     i += 1
     @@genres[index]
 
