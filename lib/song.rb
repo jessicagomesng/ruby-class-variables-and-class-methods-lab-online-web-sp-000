@@ -35,7 +35,8 @@ class Song
     genre_count = {}
     #iterate over the genres array & count the number of instances that it appears.
     counter = 0
-    @@genres.each do
+    @@genres.each do |genre|
+      
   end
 
   def self.artist_count
