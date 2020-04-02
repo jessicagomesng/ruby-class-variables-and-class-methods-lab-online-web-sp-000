@@ -5,13 +5,11 @@ class Song
   @@genres = []
 
   def initialize
-    @@songs_count += 1 
+    @@songs_count += 1
   end
 
   def self.count
     @@songs_count
   end
-
-
 
 end
