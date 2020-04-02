@@ -38,8 +38,7 @@ class Song
 
     @@genres.each_with_index do |genre, index| while i < @@genres.length
     i += 1
-    @@genres[index]
-
+    genre_count[@@genres[index]] = 
 
     end
 
