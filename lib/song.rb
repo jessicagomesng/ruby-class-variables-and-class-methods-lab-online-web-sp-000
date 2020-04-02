@@ -37,9 +37,23 @@ class Song
     @@genres.each do |genre|
       genre_counts[genre] += 1
     end 
-
+    genre_counts
   end
 
   def self.artist_count
   end
+end
+
+genre_count = {}
+#iterate over the genres array & count the number of instances that it appears.
+i = 0
+count_of_genre = 0
+#genres = [rap, pop, pop]
+@@genres.each_with_index do |genre, index| while i < @@genres.length
+i += 1
+
+@@genre[index].count()
+
+genre_count[@@genres[index]] = count_of_genre
+
 end
