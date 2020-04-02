@@ -38,8 +38,8 @@ class Song
     @@genres.each do |genre|
       
       counter + 1
-    end 
-    
+    end
+
   end
 
   def self.artist_count
