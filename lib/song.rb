@@ -39,7 +39,7 @@ class Song
     #genres = [rap, pop, pop]
     @@genres.each_with_index do |genre, index| while i < @@genres.length
     i += 1
-
+    
     genre_count[@@genres[index]] = count_of_genre
 
     end
