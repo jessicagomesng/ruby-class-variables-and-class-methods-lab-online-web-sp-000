@@ -24,10 +24,11 @@ class Song
   end
 
   def self.artists
+    @@unique_artists
   end
 
   def self.genres
-    @@genres
+    @@unique_genres
   end
 
 end
