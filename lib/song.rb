@@ -12,7 +12,7 @@ class Song
     @genre = genre
     @@count += 1
     @@artists << artist
-    @@genres << genre 
+    @@genres << genre
   end
 
   def self.count
@@ -20,7 +20,11 @@ class Song
   end
 
   def self.artists
-    @@artists
+    #iterate over the whole array
+    #if the item is already present, then delete it
+    @@artists.delete_if do |artist|
+      @@artists.include?(artist)
+    end 
   end
 
   def self.genres
