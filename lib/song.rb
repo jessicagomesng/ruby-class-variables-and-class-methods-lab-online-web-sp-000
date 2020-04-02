@@ -42,7 +42,6 @@ class Song
 
   def self.artist_count
   end
-end
 
 genre_count = {}
 #iterate over the genres array & count the number of instances that it appears.
