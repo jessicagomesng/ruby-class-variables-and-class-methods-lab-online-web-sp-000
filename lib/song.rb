@@ -7,7 +7,10 @@ class Song
   def initialize
   end
 
-  
+  def self.count
+    @@songs_count
+  end 
+
 
 
 end
