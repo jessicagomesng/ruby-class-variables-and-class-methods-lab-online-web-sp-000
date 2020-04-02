@@ -20,8 +20,6 @@ class Song
   end
 
   def self.artists
-    #iterate over the whole array
-    #if the item is already present, then delete it
   end
 
   def self.genres
